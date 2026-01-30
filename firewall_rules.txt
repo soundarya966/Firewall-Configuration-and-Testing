@@ -1,0 +1,17 @@
+Default Policies:
+- Incoming: Deny
+- Outgoing: Allow
+
+Allowed Ports:
+- 22/tcp (SSH)
+- 80/tcp (HTTP)
+- 443/tcp (HTTPS)
+
+Blocked Ports:
+- 21/tcp (FTP)
+
+Blocked IP:
+- 192.168.1.100
+
+Logging:
+- Enabled
